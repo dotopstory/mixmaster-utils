@@ -1,6 +1,6 @@
 ## Usando o cypher
 
-For use cypher with desired user configurations for `user` and database `password`. Just enter in folder `./server/cypher/data` and edit files bellow:
+For use cypher with desired user configurations for `username_at_your_choise` and database `password_at_your_choise`. Just enter in folder `./server/cypher/data` and edit files bellow:
 
 - gms.cfg;
 - lgs.cfg;
@@ -20,7 +20,9 @@ Is this momment select option 1 and press enter. After select option 1 again and
 
 Exemple in folder: cfg_20181123103856. 
 
-Inside folder created by cypher you can found the key, decode, enconde and log. Enter inside folder `encode` and copy `gms_db.enc` for example. Go to the folder `gms` inside `./server` and paste (replace) the file here. Repeat the process for `lgs` and `zs1`.
+Inside folder created by cypher you can found the `key` and folder `enconde`. Enter inside folder `encode` and copy `gms_db.enc` for example. Go to the folder `gms` inside `./server` and paste (replace) the file here. Repeat the process for `lgs` and `zs1`.
+
+The `key` file have to be copied and pasted to all folders lgs, gms and zs1.
 
 Done that, all parts of server will be run with desired database configurations.
 
