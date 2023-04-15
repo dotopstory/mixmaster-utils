@@ -10,8 +10,8 @@ All fields finished with `_ID` can be replaced with a new user database name and
 
 When you have done all changes that you want. Execute commands bellow:
 
-run: `sudo su`
 run: `cd ./server/cypher/`
+
 run: `./cypher`
 
 If program don't execute, run: `sudo chmod +x ./cypher`. After run `./cypher` again. 
