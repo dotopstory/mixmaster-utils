@@ -1,0 +1,2 @@
+GLOBAL_PASS = "sudo";
+GLOBAL_SERVER = "titan192.168.1.235"

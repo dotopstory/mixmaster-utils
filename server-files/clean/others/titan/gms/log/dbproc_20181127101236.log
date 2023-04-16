@@ -1,0 +1,159 @@
+[-1214092480][20181127101236] [E] Fail to Query 
+        Sql : insert into LogHistory values('192.168.1.235',21286,'20181127101236/ObjectLog_20181127101236.log',1, 1,FROM_UNIXTIME(1543320756),0,0) 
+         Error : Incorrect datetime value: '0' for column 'EndTime' at row 1 
+[-1214092480][20181127101236][LE] Log Query Error insert into LogHistory values('192.168.1.235',21286,'20181127101236/ObjectLog_20181127101236.log',1, 1,FROM_UNIXTIME(1543320756),0,0)
+[-1214092480][20181127101236] [E] Fail to Query 
+        Sql : repalce into LogHistory set Status=0 where Filename='20181127101236/ObjectLog_20181127101236.log' and IP = '192.168.1.235' and Port = 21286  
+         Error : You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'repalce into LogHistory set Status=0 where Filename='20181127101236/ObjectLog_20' at line 1 
+[-1214092480][20181127101236][LE] Log Error Query Error repalce into LogHistory set Status=0 where Filename='20181127101236/ObjectLog_20181127101236.log' and IP = '192.168.1.235' and Port = 21286 
+[-1214092480][20181127101236] [E] Fail to Query 
+        Sql : insert into LogHistory values('192.168.1.235',21286,'20181127101236/ObjectSubLog_20181127101236.log',2, 1,FROM_UNIXTIME(1543320756),0,0) 
+         Error : Incorrect datetime value: '0' for column 'EndTime' at row 1 
+[-1214092480][20181127101236][LE] Log Query Error insert into LogHistory values('192.168.1.235',21286,'20181127101236/ObjectSubLog_20181127101236.log',2, 1,FROM_UNIXTIME(1543320756),0,0)
+[-1214092480][20181127101236] [E] Fail to Query 
+        Sql : repalce into LogHistory set Status=0 where Filename='20181127101236/ObjectSubLog_20181127101236.log' and IP = '192.168.1.235' and Port = 21286  
+         Error : You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'repalce into LogHistory set Status=0 where Filename='20181127101236/ObjectSubLog' at line 1 
+[-1214092480][20181127101236][LE] Log Error Query Error repalce into LogHistory set Status=0 where Filename='20181127101236/ObjectSubLog_20181127101236.log' and IP = '192.168.1.235' and Port = 21286 
+[-1214092480][20181127101236] [E] Fail to Query 
+        Sql : insert into LogHistory values('192.168.1.235',21286,'20181127101236/MovementLog_20181127101236.log',3, 1,FROM_UNIXTIME(1543320756),0,0) 
+         Error : Incorrect datetime value: '0' for column 'EndTime' at row 1 
+[-1214092480][20181127101236][LE] Log Query Error insert into LogHistory values('192.168.1.235',21286,'20181127101236/MovementLog_20181127101236.log',3, 1,FROM_UNIXTIME(1543320756),0,0)
+[-1214092480][20181127101236] [E] Fail to Query 
+        Sql : repalce into LogHistory set Status=0 where Filename='20181127101236/MovementLog_20181127101236.log' and IP = '192.168.1.235' and Port = 21286  
+         Error : You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'repalce into LogHistory set Status=0 where Filename='20181127101236/MovementLog_' at line 1 
+[-1214092480][20181127101236][LE] Log Error Query Error repalce into LogHistory set Status=0 where Filename='20181127101236/MovementLog_20181127101236.log' and IP = '192.168.1.235' and Port = 21286 
+[-1214092480][20181127101236] [E] Fail to Query 
+        Sql : insert into LogHistory values('192.168.1.235',21286,'20181127101236/MovementSubLog_20181127101236.log',4, 1,FROM_UNIXTIME(1543320756),0,0) 
+         Error : Incorrect datetime value: '0' for column 'EndTime' at row 1 
+[-1214092480][20181127101236][LE] Log Query Error insert into LogHistory values('192.168.1.235',21286,'20181127101236/MovementSubLog_20181127101236.log',4, 1,FROM_UNIXTIME(1543320756),0,0)
+[-1214092480][20181127101236] [E] Fail to Query 
+        Sql : repalce into LogHistory set Status=0 where Filename='20181127101236/MovementSubLog_20181127101236.log' and IP = '192.168.1.235' and Port = 21286  
+         Error : You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'repalce into LogHistory set Status=0 where Filename='20181127101236/MovementSubL' at line 1 
+[-1214092480][20181127101236][LE] Log Error Query Error repalce into LogHistory set Status=0 where Filename='20181127101236/MovementSubLog_20181127101236.log' and IP = '192.168.1.235' and Port = 21286 
+[-1214088832][20181127101236] [I] Connect to GAMEDB Successfully...
+[-1214088832][20181127101236] [I] s_item DB Load...
+[-1214088832][20181127101237] [I] s_item DB Load... Success
+[-1214088832][20181127101237] [I] s_ItemEffectiveData DB Load...
+[-1214088832][20181127101237] [I] s_ItemEffectiveData DB Load... Success
+[-1214088832][20181127101237] [I] S_MONSTER DB Load...
+[-1214088832][20181127101237] [I] S_LvUserInfo DB Load...
+[-1214088832][20181127101237][W] Number of S_LvUserInfo record is NOT equal to MAX_LEVEL.
+[-1214088832][20181127101237][E] iLevel is out of bound.
+[-1214088832][20181127101237][E] iLevel is out of bound.
+[-1214088832][20181127101237][E] iLevel is out of bound.
+[-1214088832][20181127101237][E] iLevel is out of bound.
+[-1214088832][20181127101237][E] iLevel is out of bound.
+[-1214088832][20181127101237][E] iLevel is out of bound.
+[-1214088832][20181127101237][E] iLevel is out of bound.
+[-1214088832][20181127101237][E] iLevel is out of bound.
+[-1214088832][20181127101237][E] iLevel is out of bound.
+[-1214088832][20181127101237][E] iLevel is out of bound.
+[-1214088832][20181127101237][E] iLevel is out of bound.
+[-1214088832][20181127101237][E] iLevel is out of bound.
+[-1214088832][20181127101237][E] iLevel is out of bound.
+[-1214088832][20181127101237][E] iLevel is out of bound.
+[-1214088832][20181127101237][E] iLevel is out of bound.
+[-1214088832][20181127101237][E] iLevel is out of bound.
+[-1214088832][20181127101237][E] iLevel is out of bound.
+[-1214088832][20181127101237][E] iLevel is out of bound.
+[-1214088832][20181127101237][E] iLevel is out of bound.
+[-1214088832][20181127101237][E] iLevel is out of bound.
+[-1214088832][20181127101237][E] iLevel is out of bound.
+[-1214088832][20181127101237][E] iLevel is out of bound.
+[-1214088832][20181127101237][E] iLevel is out of bound.
+[-1214088832][20181127101237][E] iLevel is out of bound.
+[-1214088832][20181127101237][E] iLevel is out of bound.
+[-1214088832][20181127101237] [I] S_LvMonInfo DB Load...
+[-1214088832][20181127101237][E] iLevel is out of bound.
+[-1214088832][20181127101237][E] iLevel is out of bound.
+[-1214088832][20181127101237][E] iLevel is out of bound.
+[-1214088832][20181127101237][E] iLevel is out of bound.
+[-1214088832][20181127101237][E] iLevel is out of bound.
+[-1214088832][20181127101237][E] iLevel is out of bound.
+[-1214088832][20181127101237][E] iLevel is out of bound.
+[-1214088832][20181127101237][E] iLevel is out of bound.
+[-1214088832][20181127101237][E] iLevel is out of bound.
+[-1214088832][20181127101237][E] iLevel is out of bound.
+[-1214088832][20181127101237][E] iLevel is out of bound.
+[-1214088832][20181127101237][E] iLevel is out of bound.
+[-1214088832][20181127101237][E] iLevel is out of bound.
+[-1214088832][20181127101237][E] iLevel is out of bound.
+[-1214088832][20181127101237][E] iLevel is out of bound.
+[-1214088832][20181127101237][E] iLevel is out of bound.
+[-1214088832][20181127101237][E] iLevel is out of bound.
+[-1214088832][20181127101237][E] iLevel is out of bound.
+[-1214088832][20181127101237][E] iLevel is out of bound.
+[-1214088832][20181127101237][E] iLevel is out of bound.
+[-1214088832][20181127101237][E] iLevel is out of bound.
+[-1214088832][20181127101237][E] iLevel is out of bound.
+[-1214088832][20181127101237][E] iLevel is out of bound.
+[-1214088832][20181127101237][E] iLevel is out of bound.
+[-1214088832][20181127101237][E] iLevel is out of bound.
+[-1214088832][20181127101237] [I] s_PartyExpRate DB Load...
+[-1214088832][20181127101237] [I] s_PartyPenaltyRate DB Load...
+[-1214088832][20181127101237] [I] S_Zone DB Load...
+[-1214088832][20181127101237] [I] Connect to GAMEDB Successfully...
+[-1214092480][20181127111236] [E] Fail to Query 
+        Sql : insert into LogHistory values('192.168.1.235',21286,'20181127101236/ObjectLog_20181127111236.log',1, 1,FROM_UNIXTIME(1543324356),0,0) 
+         Error : Incorrect datetime value: '0' for column 'EndTime' at row 1 
+[-1214092480][20181127111236][LE] Log Query Error insert into LogHistory values('192.168.1.235',21286,'20181127101236/ObjectLog_20181127111236.log',1, 1,FROM_UNIXTIME(1543324356),0,0)
+[-1214092480][20181127111236] [E] Fail to Query 
+        Sql : repalce into LogHistory set Status=0 where Filename='20181127101236/ObjectLog_20181127111236.log' and IP = '192.168.1.235' and Port = 21286  
+         Error : You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'repalce into LogHistory set Status=0 where Filename='20181127101236/ObjectLog_20' at line 1 
+[-1214092480][20181127111236][LE] Log Error Query Error repalce into LogHistory set Status=0 where Filename='20181127101236/ObjectLog_20181127111236.log' and IP = '192.168.1.235' and Port = 21286 
+[-1214092480][20181127111236] [E] Fail to Query 
+        Sql : insert into LogHistory values('192.168.1.235',21286,'20181127101236/ObjectSubLog_20181127111236.log',2, 1,FROM_UNIXTIME(1543324356),0,0) 
+         Error : Incorrect datetime value: '0' for column 'EndTime' at row 1 
+[-1214092480][20181127111236][LE] Log Query Error insert into LogHistory values('192.168.1.235',21286,'20181127101236/ObjectSubLog_20181127111236.log',2, 1,FROM_UNIXTIME(1543324356),0,0)
+[-1214092480][20181127111236] [E] Fail to Query 
+        Sql : repalce into LogHistory set Status=0 where Filename='20181127101236/ObjectSubLog_20181127111236.log' and IP = '192.168.1.235' and Port = 21286  
+         Error : You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'repalce into LogHistory set Status=0 where Filename='20181127101236/ObjectSubLog' at line 1 
+[-1214092480][20181127111236][LE] Log Error Query Error repalce into LogHistory set Status=0 where Filename='20181127101236/ObjectSubLog_20181127111236.log' and IP = '192.168.1.235' and Port = 21286 
+[-1214092480][20181127111236] [E] Fail to Query 
+        Sql : insert into LogHistory values('192.168.1.235',21286,'20181127101236/MovementLog_20181127111236.log',3, 1,FROM_UNIXTIME(1543324356),0,0) 
+         Error : Incorrect datetime value: '0' for column 'EndTime' at row 1 
+[-1214092480][20181127111236][LE] Log Query Error insert into LogHistory values('192.168.1.235',21286,'20181127101236/MovementLog_20181127111236.log',3, 1,FROM_UNIXTIME(1543324356),0,0)
+[-1214092480][20181127111236] [E] Fail to Query 
+        Sql : repalce into LogHistory set Status=0 where Filename='20181127101236/MovementLog_20181127111236.log' and IP = '192.168.1.235' and Port = 21286  
+         Error : You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'repalce into LogHistory set Status=0 where Filename='20181127101236/MovementLog_' at line 1 
+[-1214092480][20181127111236][LE] Log Error Query Error repalce into LogHistory set Status=0 where Filename='20181127101236/MovementLog_20181127111236.log' and IP = '192.168.1.235' and Port = 21286 
+[-1214092480][20181127111236] [E] Fail to Query 
+        Sql : insert into LogHistory values('192.168.1.235',21286,'20181127101236/MovementSubLog_20181127111236.log',4, 1,FROM_UNIXTIME(1543324356),0,0) 
+         Error : Incorrect datetime value: '0' for column 'EndTime' at row 1 
+[-1214092480][20181127111236][LE] Log Query Error insert into LogHistory values('192.168.1.235',21286,'20181127101236/MovementSubLog_20181127111236.log',4, 1,FROM_UNIXTIME(1543324356),0,0)
+[-1214092480][20181127111236] [E] Fail to Query 
+        Sql : repalce into LogHistory set Status=0 where Filename='20181127101236/MovementSubLog_20181127111236.log' and IP = '192.168.1.235' and Port = 21286  
+         Error : You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'repalce into LogHistory set Status=0 where Filename='20181127101236/MovementSubL' at line 1 
+[-1214092480][20181127111236][LE] Log Error Query Error repalce into LogHistory set Status=0 where Filename='20181127101236/MovementSubLog_20181127111236.log' and IP = '192.168.1.235' and Port = 21286 
+[-1214092480][20181127121236] [E] Fail to Query 
+        Sql : insert into LogHistory values('192.168.1.235',21286,'20181127101236/ObjectLog_20181127121236.log',1, 1,FROM_UNIXTIME(1543327956),0,0) 
+         Error : Incorrect datetime value: '0' for column 'EndTime' at row 1 
+[-1214092480][20181127121236][LE] Log Query Error insert into LogHistory values('192.168.1.235',21286,'20181127101236/ObjectLog_20181127121236.log',1, 1,FROM_UNIXTIME(1543327956),0,0)
+[-1214092480][20181127121236] [E] Fail to Query 
+        Sql : repalce into LogHistory set Status=0 where Filename='20181127101236/ObjectLog_20181127121236.log' and IP = '192.168.1.235' and Port = 21286  
+         Error : You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'repalce into LogHistory set Status=0 where Filename='20181127101236/ObjectLog_20' at line 1 
+[-1214092480][20181127121236][LE] Log Error Query Error repalce into LogHistory set Status=0 where Filename='20181127101236/ObjectLog_20181127121236.log' and IP = '192.168.1.235' and Port = 21286 
+[-1214092480][20181127121236] [E] Fail to Query 
+        Sql : insert into LogHistory values('192.168.1.235',21286,'20181127101236/ObjectSubLog_20181127121236.log',2, 1,FROM_UNIXTIME(1543327956),0,0) 
+         Error : Incorrect datetime value: '0' for column 'EndTime' at row 1 
+[-1214092480][20181127121236][LE] Log Query Error insert into LogHistory values('192.168.1.235',21286,'20181127101236/ObjectSubLog_20181127121236.log',2, 1,FROM_UNIXTIME(1543327956),0,0)
+[-1214092480][20181127121236] [E] Fail to Query 
+        Sql : repalce into LogHistory set Status=0 where Filename='20181127101236/ObjectSubLog_20181127121236.log' and IP = '192.168.1.235' and Port = 21286  
+         Error : You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'repalce into LogHistory set Status=0 where Filename='20181127101236/ObjectSubLog' at line 1 
+[-1214092480][20181127121236][LE] Log Error Query Error repalce into LogHistory set Status=0 where Filename='20181127101236/ObjectSubLog_20181127121236.log' and IP = '192.168.1.235' and Port = 21286 
+[-1214092480][20181127121236] [E] Fail to Query 
+        Sql : insert into LogHistory values('192.168.1.235',21286,'20181127101236/MovementLog_20181127121236.log',3, 1,FROM_UNIXTIME(1543327956),0,0) 
+         Error : Incorrect datetime value: '0' for column 'EndTime' at row 1 
+[-1214092480][20181127121236][LE] Log Query Error insert into LogHistory values('192.168.1.235',21286,'20181127101236/MovementLog_20181127121236.log',3, 1,FROM_UNIXTIME(1543327956),0,0)
+[-1214092480][20181127121236] [E] Fail to Query 
+        Sql : repalce into LogHistory set Status=0 where Filename='20181127101236/MovementLog_20181127121236.log' and IP = '192.168.1.235' and Port = 21286  
+         Error : You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'repalce into LogHistory set Status=0 where Filename='20181127101236/MovementLog_' at line 1 
+[-1214092480][20181127121236][LE] Log Error Query Error repalce into LogHistory set Status=0 where Filename='20181127101236/MovementLog_20181127121236.log' and IP = '192.168.1.235' and Port = 21286 
+[-1214092480][20181127121236] [E] Fail to Query 
+        Sql : insert into LogHistory values('192.168.1.235',21286,'20181127101236/MovementSubLog_20181127121236.log',4, 1,FROM_UNIXTIME(1543327956),0,0) 
+         Error : Incorrect datetime value: '0' for column 'EndTime' at row 1 
+[-1214092480][20181127121236][LE] Log Query Error insert into LogHistory values('192.168.1.235',21286,'20181127101236/MovementSubLog_20181127121236.log',4, 1,FROM_UNIXTIME(1543327956),0,0)
+[-1214092480][20181127121236] [E] Fail to Query 
+        Sql : repalce into LogHistory set Status=0 where Filename='20181127101236/MovementSubLog_20181127121236.log' and IP = '192.168.1.235' and Port = 21286  
+         Error : You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'repalce into LogHistory set Status=0 where Filename='20181127101236/MovementSubL' at line 1 
+[-1214092480][20181127121236][LE] Log Error Query Error repalce into LogHistory set Status=0 where Filename='20181127101236/MovementSubLog_20181127121236.log' and IP = '192.168.1.235' and Port = 21286 

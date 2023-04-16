@@ -1,0 +1,94 @@
+[-1214178944][20181127180726] [I] Connect to GAMEDB Successfully...
+[-1214178944][20181127180726] [I] s_item DB Load...
+[-1214182592][20181127180726] [E] Fail to Query 
+        Sql : insert into LogHistory values('192.168.1.235',21286,'20181127180726/ObjectLog_20181127180726.log',1, 1,FROM_UNIXTIME(1543349246),0,0) 
+         Error : Incorrect datetime value: '0' for column 'EndTime' at row 1 
+[-1214182592][20181127180726][LE] Log Query Error insert into LogHistory values('192.168.1.235',21286,'20181127180726/ObjectLog_20181127180726.log',1, 1,FROM_UNIXTIME(1543349246),0,0)
+[-1214182592][20181127180726] [E] Fail to Query 
+        Sql : repalce into LogHistory set Status=0 where Filename='20181127180726/ObjectLog_20181127180726.log' and IP = '192.168.1.235' and Port = 21286  
+         Error : You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'repalce into LogHistory set Status=0 where Filename='20181127180726/ObjectLog_20' at line 1 
+[-1214182592][20181127180726][LE] Log Error Query Error repalce into LogHistory set Status=0 where Filename='20181127180726/ObjectLog_20181127180726.log' and IP = '192.168.1.235' and Port = 21286 
+[-1214182592][20181127180726] [E] Fail to Query 
+        Sql : insert into LogHistory values('192.168.1.235',21286,'20181127180726/ObjectSubLog_20181127180726.log',2, 1,FROM_UNIXTIME(1543349246),0,0) 
+         Error : Incorrect datetime value: '0' for column 'EndTime' at row 1 
+[-1214182592][20181127180726][LE] Log Query Error insert into LogHistory values('192.168.1.235',21286,'20181127180726/ObjectSubLog_20181127180726.log',2, 1,FROM_UNIXTIME(1543349246),0,0)
+[-1214182592][20181127180726] [E] Fail to Query 
+        Sql : repalce into LogHistory set Status=0 where Filename='20181127180726/ObjectSubLog_20181127180726.log' and IP = '192.168.1.235' and Port = 21286  
+         Error : You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'repalce into LogHistory set Status=0 where Filename='20181127180726/ObjectSubLog' at line 1 
+[-1214182592][20181127180726][LE] Log Error Query Error repalce into LogHistory set Status=0 where Filename='20181127180726/ObjectSubLog_20181127180726.log' and IP = '192.168.1.235' and Port = 21286 
+[-1214182592][20181127180726] [E] Fail to Query 
+        Sql : insert into LogHistory values('192.168.1.235',21286,'20181127180726/MovementLog_20181127180726.log',3, 1,FROM_UNIXTIME(1543349246),0,0) 
+         Error : Incorrect datetime value: '0' for column 'EndTime' at row 1 
+[-1214182592][20181127180726][LE] Log Query Error insert into LogHistory values('192.168.1.235',21286,'20181127180726/MovementLog_20181127180726.log',3, 1,FROM_UNIXTIME(1543349246),0,0)
+[-1214182592][20181127180726] [E] Fail to Query 
+        Sql : repalce into LogHistory set Status=0 where Filename='20181127180726/MovementLog_20181127180726.log' and IP = '192.168.1.235' and Port = 21286  
+         Error : You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'repalce into LogHistory set Status=0 where Filename='20181127180726/MovementLog_' at line 1 
+[-1214182592][20181127180726][LE] Log Error Query Error repalce into LogHistory set Status=0 where Filename='20181127180726/MovementLog_20181127180726.log' and IP = '192.168.1.235' and Port = 21286 
+[-1214182592][20181127180726] [E] Fail to Query 
+        Sql : insert into LogHistory values('192.168.1.235',21286,'20181127180726/MovementSubLog_20181127180726.log',4, 1,FROM_UNIXTIME(1543349246),0,0) 
+         Error : Incorrect datetime value: '0' for column 'EndTime' at row 1 
+[-1214182592][20181127180726][LE] Log Query Error insert into LogHistory values('192.168.1.235',21286,'20181127180726/MovementSubLog_20181127180726.log',4, 1,FROM_UNIXTIME(1543349246),0,0)
+[-1214182592][20181127180726] [E] Fail to Query 
+        Sql : repalce into LogHistory set Status=0 where Filename='20181127180726/MovementSubLog_20181127180726.log' and IP = '192.168.1.235' and Port = 21286  
+         Error : You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'repalce into LogHistory set Status=0 where Filename='20181127180726/MovementSubL' at line 1 
+[-1214182592][20181127180726][LE] Log Error Query Error repalce into LogHistory set Status=0 where Filename='20181127180726/MovementSubLog_20181127180726.log' and IP = '192.168.1.235' and Port = 21286 
+[-1214178944][20181127180726] [I] s_item DB Load... Success
+[-1214178944][20181127180726] [I] s_ItemEffectiveData DB Load...
+[-1214178944][20181127180726] [I] s_ItemEffectiveData DB Load... Success
+[-1214178944][20181127180726] [I] S_MONSTER DB Load...
+[-1214178944][20181127180726] [I] S_LvUserInfo DB Load...
+[-1214178944][20181127180726][W] Number of S_LvUserInfo record is NOT equal to MAX_LEVEL.
+[-1214178944][20181127180726][E] iLevel is out of bound.
+[-1214178944][20181127180726][E] iLevel is out of bound.
+[-1214178944][20181127180726][E] iLevel is out of bound.
+[-1214178944][20181127180726][E] iLevel is out of bound.
+[-1214178944][20181127180726][E] iLevel is out of bound.
+[-1214178944][20181127180726][E] iLevel is out of bound.
+[-1214178944][20181127180726][E] iLevel is out of bound.
+[-1214178944][20181127180726][E] iLevel is out of bound.
+[-1214178944][20181127180726][E] iLevel is out of bound.
+[-1214178944][20181127180726][E] iLevel is out of bound.
+[-1214178944][20181127180726][E] iLevel is out of bound.
+[-1214178944][20181127180726][E] iLevel is out of bound.
+[-1214178944][20181127180726][E] iLevel is out of bound.
+[-1214178944][20181127180726][E] iLevel is out of bound.
+[-1214178944][20181127180726][E] iLevel is out of bound.
+[-1214178944][20181127180726][E] iLevel is out of bound.
+[-1214178944][20181127180726][E] iLevel is out of bound.
+[-1214178944][20181127180726][E] iLevel is out of bound.
+[-1214178944][20181127180726][E] iLevel is out of bound.
+[-1214178944][20181127180726][E] iLevel is out of bound.
+[-1214178944][20181127180726][E] iLevel is out of bound.
+[-1214178944][20181127180726][E] iLevel is out of bound.
+[-1214178944][20181127180726][E] iLevel is out of bound.
+[-1214178944][20181127180726][E] iLevel is out of bound.
+[-1214178944][20181127180726][E] iLevel is out of bound.
+[-1214178944][20181127180726] [I] S_LvMonInfo DB Load...
+[-1214178944][20181127180726][E] iLevel is out of bound.
+[-1214178944][20181127180726][E] iLevel is out of bound.
+[-1214178944][20181127180726][E] iLevel is out of bound.
+[-1214178944][20181127180726][E] iLevel is out of bound.
+[-1214178944][20181127180726][E] iLevel is out of bound.
+[-1214178944][20181127180726][E] iLevel is out of bound.
+[-1214178944][20181127180726][E] iLevel is out of bound.
+[-1214178944][20181127180726][E] iLevel is out of bound.
+[-1214178944][20181127180726][E] iLevel is out of bound.
+[-1214178944][20181127180726][E] iLevel is out of bound.
+[-1214178944][20181127180726][E] iLevel is out of bound.
+[-1214178944][20181127180726][E] iLevel is out of bound.
+[-1214178944][20181127180726][E] iLevel is out of bound.
+[-1214178944][20181127180726][E] iLevel is out of bound.
+[-1214178944][20181127180726][E] iLevel is out of bound.
+[-1214178944][20181127180726][E] iLevel is out of bound.
+[-1214178944][20181127180726][E] iLevel is out of bound.
+[-1214178944][20181127180726][E] iLevel is out of bound.
+[-1214178944][20181127180726][E] iLevel is out of bound.
+[-1214178944][20181127180726][E] iLevel is out of bound.
+[-1214178944][20181127180726][E] iLevel is out of bound.
+[-1214178944][20181127180726][E] iLevel is out of bound.
+[-1214178944][20181127180726][E] iLevel is out of bound.
+[-1214178944][20181127180726][E] iLevel is out of bound.
+[-1214178944][20181127180726][E] iLevel is out of bound.
+[-1214178944][20181127180726] [I] s_PartyExpRate DB Load...
+[-1214178944][20181127180726] [I] s_PartyPenaltyRate DB Load...
+[-1214178944][20181127180726] [I] S_Zone DB Load...
